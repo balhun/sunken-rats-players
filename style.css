@@ -1,0 +1,57 @@
+@font-face { font-family: Windlass; src: url('Windlass.ttf'); }
+
+body {
+    background-color: #244c5c;
+    font-family: Windlass;
+    font-size: 10pt;
+}
+
+h1 {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30pt;
+    color: #80d5ad;
+    text-shadow: 0px 0px 5px;
+    border-bottom: 1px solid white;
+    width: 60%;
+}
+
+div{
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #244c5c;
+    width: 60%;
+    margin: 0 auto;
+}
+
+table {
+    background-color: #80d5ad;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid #244c5c;
+    padding: 10px;
+    background-color: #80d5ad;
+}
+
+.joined {
+    background-color: #2cb49c;
+}
+
+.invited {
+    background-color: #5b9d86;
+}
+
+.leader {
+    background-color: lightcoral;
+}
+
+#header th {
+    background-color: #26724e;
+}
